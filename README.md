@@ -7,3 +7,4 @@ What I learned:
 - Object-oriented design in C++(header files, implementation files, namespaces, etc.)
 - C++ random library
 - Simulation Programming
+- Git (to upload local repository)
