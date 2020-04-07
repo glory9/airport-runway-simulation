@@ -10,7 +10,7 @@ namespace runspace {
 
 	public:
 		Runway(int lT, int tOT);
-		int isFree();
+		bool isFree();
 		void oneSecond();
 		void takeOff();
 		void land();
