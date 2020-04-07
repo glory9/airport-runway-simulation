@@ -9,7 +9,7 @@ namespace runspace {
 		takeOffTime = tOT;
 		workTime = 0;
 	}
-	int Runway::isFree() { return (workTime == 0); }
+	bool Runway::isFree() { return (workTime == 0); }
 	void Runway::oneSecond() {
 		if (workTime > 0) { workTime -= 1; }
 	}
